@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Grid Layout */
+.grid {
+    grid-template-columns: repeat(var(--layout1-columns), 1fr) !important;
+   
+}
+.container_color{
+	background-color: var(--layout1-bg-color) !important;
+} 
+/* Title and Label */
+.course_title, .course_label {
+    font-family: var(--heading-font) !important;
+    font-size: var(--heading-font-size) !important;
+    font-weight: var(--heading-font-weight) !important;
+    color: var(--layout-title-color) !important;
+   
+}
+.layout_fr_title{
+	
+	 text-align: var(--text-align) !important;
+}
+
+/* Price */
+.course_price {
+    font-size: var(--price-font-size) !important;
+    font-weight: var(--price-font-weight) !important;
+    color: var(--price-color) !important;
+}
+
+/* Lesson */
+.course_lesson {
+    font-family: var(--lesson-font) !important;
+    font-size: var(--lesson-font-size) !important;
+    font-weight: var(--lesson-font-weight) !important;
+    color: var(--lesson-font-color) !important;
+}
+
+/* Student */
+.course_student {
+    font-family: var(--student-font) !important;
+    font-size: var(--student-font-size) !important;
+    font-weight: var(--student-font-weight) !important;
+    color: var(--student-font-color) !important;
+}
+.students_and_ratings span {
+	 font-family: var(--student-font) !important;
+    font-size: var(--student-font-size) !important;
+    font-weight: var(--student-font-weight) !important;
+    color: var(--student-font-color) !important;
+}
+.students_and_ratings i {
+    font-size: var(--student-font-size) !important;
+   
+    color: var(--student-font-color) !important;
+}
+/* Author */
+ .course_author {
+    font-family: var(--author-font) !important;
+    font-size: var(--author-font-size) !important;
+    font-weight: var(--author-font-weight) !important;
+    color: var(--author-font-color) !important;
+}
+
+/* Button */
+.course_button {
+    font-family: var(--button-font) !important;
+    font-size: var(--button-font-size) !important;
+    font-weight: var(--button-font-weight) !important;
+    color: var(--layout-button-text-color) !important;
+    background-color: var(--layout-button-color) !important;
+    border-color: var(--layout-btn-brdr-color) !important;
+}
+.course_button:hover {
+    background-color: var(--layout-btn-hover-bg-color) !important;
+    color: var(--layout-btn-hover-txt-color) !important;
+}
+
+/* Container */
+.main_container {
+    background-color: var(--container-color) !important;
+}
+
+/* Start Button */
+.start_button {
+    color: var(--layout-button-text-color) !important;
+    border: 2px solid var(--layout-btn-brdr-color) !important;
+    background: var(--layout-button-color) !important;
+}
+.start_button:hover {
+    color: var(--layout-btn-hover-txt-color) !important;
+    background: var(--layout-btn-hover-bg-color) !important;
+}
+
+/* Layout Title */
+.layout_fr_title a {
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+/* Course Label */
+.course_label {
+    cursor: pointer;
+}
+
+/* Course Price */
+.course_price {
+    color: var(--price-color) !important;
+}
